@@ -1,0 +1,58 @@
+<div class="wrapper-home">
+    <%= render 'sub_items/avatar' %>
+    <div class="container-newfeeds" >
+        <div class="container-newfeed" >
+        <%= render 'sub_items/topStatus' %>
+            <div class="container-post-status" >
+                <textarea placeholder="    667 đang nghĩ gì?"></textarea>
+            </div>
+            <div class="row">
+                <div class="col-lg-10">
+                </div>
+                <div class="col-lg-2">
+                    <button type="button" class="btn btn-primary" ng-click = "clickJoin()">POST STATUS</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="container-newfeed" >
+            <%= render 'sub_items/topStatus' %>
+
+            <p> + Buổi 1: Môi trường lập trình (Sublime Text, Rails 5, Postgresql), lập trình MVC, tương tác cơ sở dữ liệu, validation 
+                    * Source Demo: https://github.com/hatu87/hello-rails
+                    * Video: https://youtu.be/0BMHM2Pw6TY
+                    * Bài tập:
+                        + Yêu cầu trong tập tin sau: README.md. Cần copy file README vào repository trước khi push lên Github.
+                        + Tất cả bài tập nộp qua Github theo nhóm tối đa 2 người và phải có đầy đủ history quá trình commit lên git.
+                        + Deadline: 24h 3/10.
+                        + Phải có hình GIF demo. GIF phải chạy được trực tiếp khi mở repo Github.
+                        + Link host Heroku của project. Hướng dẫn up lên heroku (https://devcenter.heroku.com/articles/getting-started-with-rails5)
+            </p>
+            <%= render 'sub_items/bottomStatus' %>
+        </div>
+
+        <div class="container-newfeed" >
+            <%= render 'sub_items/topStatus' %>
+            <p>  + Buổi 2: AJAX, Javascript, SCSS, RSpec
+                    * Source Demo: https://github.com/hatu87/hello-rails
+                    * Video: https://youtu.be/lRHpbTZqZLM
+                    * Bài tập:
+                        + Yêu cầu trong tập tin sau: README.md. Cần copy file README vào repository trước khi push lên Github.
+                        + Tất cả bài tập nộp qua Github theo nhóm tối đa 2 người và phải có đầy đủ history quá trình commit lên git.
+                        + Deadline: 24h 11/10.
+                        + Phải có hình GIF demo. GIF phải chạy được trực tiếp khi mở repo Github.
+                        + Link host Heroku của project. Hướng dẫn up lên heroku (https://devcenter.heroku.com/articles/getting-started-with-rails5)
+            </p>
+            <%= render 'sub_items/bottomStatus' %>
+        </div>
+
+        <div class="container-newfeed" >
+            <%= render 'sub_items/topStatus' %>
+            <p>  + Buổi 3: Testing (Rspec, Capybara) hoặc Rails API (Authentication, OAuth2, Serializer)
+                    - Tài liệu tham khảo:
+                    + Ruby: cần làm hết các bài tập lập trình Ruby (https://www.hackerrank.com/domains/ruby/ruby-tutorials)
+                    + Rails: tài liệu hướng dẫn cơ bản(http://guides.rubyonrails.org), các kĩ thuật trong Rails (https://www.youtube.com/user/RailscastsReloaded)
+            </p>
+            <%= render 'sub_items/bottomStatus' %>
+        </div>
+</div>
